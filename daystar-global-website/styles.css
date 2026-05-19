@@ -671,3 +671,15 @@ a {
     flex-direction: column;
   }
 }
+
+.feishu-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 220px;
+  padding: 32px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--panel);
+  box-shadow: 0 20px 70px rgba(0, 0, 0, 0.2);
+}
